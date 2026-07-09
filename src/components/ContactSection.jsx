@@ -33,8 +33,9 @@ const ContactSection = () => {
                             <p className="text-gray-600 mb-4">Feel free to reach out to us anytime.</p>
                             <div className="flex items-center text-slate-900">
                                 <Mail className="h-5 w-5 mr-2" />
-                                <a href="mailto:info@ardentvale.com" className="text-slate-900 hover:underline">
-                                    contact@ardentvaleconsultants.com
+                                <a href="mailto:info@Clix.com" className="text-slate-900 hover:underline">
+                                            hr@clix.org.in<br />
+
                                 </a>
                             </div>
                         </div>
@@ -58,11 +59,12 @@ const ContactSection = () => {
                                 <div className="flex items-start">
                                     <MapPin className="h-5 w-5 mr-2 mt-0.5 shrink-0" />
                                     <p>
-                                        Ardent & Vale Consultants Pvt. Ltd.,<br />
-                                        Level 2, Oval Building, Ilabs Centre, Plot No.18,
+                                        Clix Consultants Pvt. Ltd.,<br />
+                                        123 Jenny Drive,
+                                        Bear, 
 
-                                        Shaikpet,<br />
-                                        Telangana, India - 500081
+                                       Delaware - 1901 ,<br />
+
                                     </p>
                                 </div>
                                 <div>
@@ -77,58 +79,58 @@ const ContactSection = () => {
 
                     </div>
 
-                  
+
 
                 </div>
-                  {/* Stats Section */}
-                    <section ref={ref} className="w-full bg-gray-200 py-12">
-                        <div className="w-full max-w-7xl mx-auto px-4 lg:px-16">
-                            <div className="flex flex-col lg:flex-row items-center justify-between w-full">
+                {/* Stats Section */}
+                <section ref={ref} className="w-full bg-gray-200 py-12">
+                    <div className="w-full max-w-7xl mx-auto px-4 lg:px-16">
+                        <div className="flex flex-col lg:flex-row items-center justify-between w-full">
 
-                                {/* Logo & Text */}
-                                <div className="flex flex-col lg:flex-row items-center lg:items-start mb-8 lg:mb-0 text-center lg:text-left lg:w-7/12">
-                                    <div className="shrink-0 mb-4 lg:mb-0">
-                                        <img
-                                            src={avcplLogo}
-                                            alt="AVCPL Logo"
-                                            className="h-16 w-auto object-contain mx-auto lg:mx-0"
-                                        />
+                            {/* Logo & Text */}
+                            <div className="flex flex-col lg:flex-row items-center lg:items-start mb-8 lg:mb-0 text-center lg:text-left lg:w-7/12">
+                                <div className="shrink-0 mb-4 lg:mb-0">
+                                    <img
+                                        src={avcplLogo}
+                                        alt="AVCPL Logo"
+                                        className="h-16 w-auto object-contain mx-auto lg:mx-0"
+                                    />
+                                </div>
+                                <p className="text-gray-700 lg:ml-4">
+                                    We bring talent and opportunities together through trust, professionalism, and growth-focused collaboration.
+                                </p>
+                            </div>
+
+                            {/* Counters */}
+                            <div className="flex flex-col sm:flex-row justify-center lg:justify-end items-center lg:items-start space-y-4 sm:space-y-0 sm:space-x-12 lg:space-x-16 lg:w-5/12 text-center lg:text-left">
+
+                                {/* Candidates Placed */}
+                                <div className="flex flex-col items-center sm:items-start">
+                                    <div className="flex items-center mb-2">
+                                        <Briefcase className="h-8 w-8 text-slate-900 mr-2" />
+                                        <span className="text-3xl font-bold text-gray-800">
+                                            {inView ? <CountUp start={0} end={1250} duration={3} separator="," /> : 0}
+                                        </span>
                                     </div>
-                                    <p className="text-gray-700 lg:ml-4">
-                                        We bring talent and opportunities together through trust, professionalism, and growth-focused collaboration.
-                                    </p>
+                                    <p className="text-gray-600">Candidates Placed</p>
                                 </div>
 
-                                {/* Counters */}
-                                <div className="flex flex-col sm:flex-row justify-center lg:justify-end items-center lg:items-start space-y-4 sm:space-y-0 sm:space-x-12 lg:space-x-16 lg:w-5/12 text-center lg:text-left">
-
-                                    {/* Candidates Placed */}
-                                    <div className="flex flex-col items-center sm:items-start">
-                                        <div className="flex items-center mb-2">
-                                            <Briefcase className="h-8 w-8 text-slate-900 mr-2" />
-                                            <span className="text-3xl font-bold text-gray-800">
-                                                {inView ? <CountUp start={0} end={1250} duration={3} separator="," /> : 0}
-                                            </span>
-                                        </div>
-                                        <p className="text-gray-600">Candidates Placed</p>
+                                {/* Companies Served */}
+                                <div className="flex flex-col items-center sm:items-start">
+                                    <div className="flex items-center mb-2">
+                                        <Users className="h-8 w-8 text-slate-900 mr-2" />
+                                        <span className="text-3xl font-bold text-gray-800">
+                                            {inView ? <CountUp start={0} end={160} duration={3} separator="," /> : 0}
+                                        </span>
                                     </div>
-
-                                    {/* Companies Served */}
-                                    <div className="flex flex-col items-center sm:items-start">
-                                        <div className="flex items-center mb-2">
-                                            <Users className="h-8 w-8 text-slate-900 mr-2" />
-                                            <span className="text-3xl font-bold text-gray-800">
-                                                {inView ? <CountUp start={0} end={160} duration={3} separator="," /> : 0}
-                                            </span>
-                                        </div>
-                                        <p className="text-gray-600">Clients Served</p>
-                                    </div>
-
+                                    <p className="text-gray-600">Clients Served</p>
                                 </div>
 
                             </div>
+
                         </div>
-                    </section>
+                    </div>
+                </section>
             </section>
         </div>
     );

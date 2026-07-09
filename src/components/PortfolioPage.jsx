@@ -70,7 +70,7 @@ const PortfolioPage = () => {
                         OUR EXPERTISE
                     </h1>
                     <p className="text-gray-600 leading-relaxed max-w-4xl mx-auto text-lg">
-                        Ardent and Vale Consultants Pvt. Ltd. is a strategic digital solutions partner specializing in innovative technology services. From custom mobile applications to enterprise-grade web platforms and scalable cloud systems, we empower businesses to streamline operations, enhance customer experience, and achieve digital growth.
+                        ClixConsultants Pvt. Ltd. is a strategic digital solutions partner specializing in innovative technology services. From custom mobile applications to enterprise-grade web platforms and scalable cloud systems, we empower businesses to streamline operations, enhance customer experience, and achieve digital growth.
                         We specialize in cutting-edge
                         mobile app development, custom web solutions, cloud infrastructure,
                         and IT consulting services designed to optimize operations and
@@ -162,7 +162,7 @@ const PortfolioPage = () => {
                 AUTHORISED PARTNERS
             </h2>
             <p className="text-gray-600 text-center leading-relaxed max-w-4xl mx-auto mb-16 text-lg">
-                Ardent and Vale Consultants collaborates with leading global technology platforms to deliver secure, scalable, and high-performance solutions. Our partnerships strengthen our capabilities across software development, cloud services, cybersecurity, automation, and IT talent augmentation.
+                ClixConsultants collaborates with leading global technology platforms to deliver secure, scalable, and high-performance solutions. Our partnerships strengthen our capabilities across software development, cloud services, cybersecurity, automation, and IT talent augmentation.
                 and advanced platforms
                 to deliver impactful solutions in web and mobile app development, cloud infrastructure,
                 DevOps automation, and IT staffing. We collaborate with trusted technology partners to
@@ -175,7 +175,7 @@ const PortfolioPage = () => {
                     ABOUT US
                 </h2>
                 <p className="text-gray-600 leading-relaxed text-lg">
-                    Ardent and Vale Consultants Pvt. Ltd., founded in 2016, has evolved into a full-stack technology consulting and software development company. Headquartered in India with global delivery capabilities, we focus on building intelligent digital ecosystems through innovation, strategic planning, and modern engineering practices. Our team of expert professionals is committed to delivering transformative technology solutions that accelerate business success.
+                    ClixConsultants Pvt. Ltd., founded in 2016, has evolved into a full-stack technology consulting and software development company. Headquartered in India with global delivery capabilities, we focus on building intelligent digital ecosystems through innovation, strategic planning, and modern engineering practices. Our team of expert professionals is committed to delivering transformative technology solutions that accelerate business success.
                     forward-thinking IT enterprise that specializes in delivering
                     custom software development, enterprise-grade solutions, and strategic IT consulting
                     services. Headquartered in New York, we bridge global expertise in an agile environment
@@ -189,7 +189,7 @@ const PortfolioPage = () => {
                         Let’s Transform Your Ideas Into Reality
                     </h2>
                     <p className="text-gray-600 mb-8 text-lg max-w-3xl mx-auto leading-relaxed">
-                       At Ardent and Vale Consultants, we help organizations navigate digital transformation with expert guidance and scalable solutions.
+                       At ClixConsultants, we help organizations navigate digital transformation with expert guidance and scalable solutions.
                         Feel free to contact us for expert consultation and guidance tailored to your business needs.
                     </p>
                     <Link

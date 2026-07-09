@@ -19,6 +19,13 @@ import MobileAppDevelopmentPage from "./components/MobileAppDevelopmentPage";
 import WebDesignPage from "./components/WebDesignPage";
 import StaffAugmentationPage from "./components/StaffAugmentationPage";
 import PortfolioPage from "./components/PortfolioPage";
+import ApplicationPlatformModernization from "./components/Application Platform Modernization";
+import CloudAutomationDevOps from "./components/Cloud Automation & DevOps";
+import CloudStrategyMigrationpage from "./components/Cloud Strategy & Migration page";
+import DataEngineeringAnalytics from "./components/Data Engineering & Analytics";
+import InstructorLedMultiCloudtrainings from "./components/Instructor Led Multi-Cloud trainings";
+import MobileOmniChannelDevelopment from "./components/Mobile & Omni-Channel Development";
+
 
 const PrivacyPolicyPage = () => {
   return (
@@ -28,7 +35,7 @@ const PrivacyPolicyPage = () => {
       <p className="mb-4"><strong>Last Updated:</strong> [30-10-2025]</p>
 
       <p className="mb-4">
-        Ardent and Vale Consultants Pvt. Ltd. (“we”, “our”, “us”) is committed to protecting your privacy. 
+        ClixConsultants Pvt. Ltd. (“we”, “our”, “us”) is committed to protecting your privacy. 
         This Privacy Policy explains how we collect, use, and safeguard your information when you visit 
         our website or use our services.
       </p>
@@ -69,10 +76,10 @@ const PrivacyPolicyPage = () => {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">7. Contact Us</h2>
       <p className="mb-4">
-        <strong>Ardent and Vale Consultants Pvt. Ltd.</strong><br />
-        Email: [contact@ardentvaleconsultants.com]<br />
+        <strong>ClixConsultants Pvt. Ltd.</strong><br />
+        Email: [hr@clix.org.in]<br />
         Phone: [+91xxxxxxxxxx]<br />
-        Website: [https://ardent-and-vale-consultants-pvt-ltd.vercel.app/]
+        Website: [https://Clix-consultants-pvt-ltd.vercel.app/]
       </p>
     </div>
   );
@@ -117,6 +124,12 @@ function App() {
           <Route path="/staff-augmentation" element={<StaffAugmentationPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
+           <Route path="/Application" element={<ApplicationPlatformModernization />} />
+            <Route path="/AutomationDevOps" element={<CloudAutomationDevOps />} />
+             <Route path="/Migrationpage" element={<CloudStrategyMigrationpage />} />
+              <Route path="/DataEngineering" element={<DataEngineeringAnalytics />} />
+               <Route path="/MultiCloudtrainings" element={<InstructorLedMultiCloudtrainings />} />
+                <Route path="/Mobiledevelopment" element={<MobileOmniChannelDevelopment />} />
         </Routes>
 
         <Footer />

@@ -26,10 +26,10 @@ const Services = () => {
                 <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
                     <h1 className="text-4xl font-bold text-white mb-4">Services</h1>
                     <div className="flex items-center justify-center text-white">
-                         <Link to="/" className="hover:text-white transition">
-                        <span className="hover:text-slate-400 transition-colors cursor-pointer">
-                            Home
-                        </span>
+                        <Link to="/" className="hover:text-white transition">
+                            <span className="hover:text-slate-400 transition-colors cursor-pointer">
+                                Home
+                            </span>
                         </Link>
                         <ChevronRight className="h-4 w-4 mx-2 text-slate-400" />
                         <span className="text-white">Services</span>
@@ -52,7 +52,7 @@ const Services = () => {
                     </div>
                     <div className="relative z-10">
                         <h2 className="text-4xl font-bold text-slate-800 mb-4">
-                            Welcome to Ardent and Vale Consultants Pvt Ltd
+                            Welcome to ClixConsultants Pvt Ltd
                         </h2>
                         <p className="text-xl text-gray-500 mb-12">
                             Engineering Tomorrow's Tech - Today!
@@ -68,6 +68,105 @@ const Services = () => {
                     </div>
                     {/* Services Section */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                        {/*  Cloud Strategy & Migration */}
+                        <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
+                            <div className="flex justify-center mb-6">
+                                <div className="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-white">
+                                    <img src={webDevelopmentImg} alt="Web Development" className="w-8 h-8" />
+                                </div>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                                Cloud Strategy & Migration
+
+                            </h3>
+                            <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
+                                Our team help you craft the right cloud-first strategy aligned with you business objective.
+                            </p>
+                            <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                                <Link to="/webdesign">Read More</Link>
+                            </button>
+                        </div>
+                        {/*  Cloud Automation & DevOps*/}
+                        <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
+                            <div className="flex justify-center mb-6">
+                                <div className="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-white">
+                                    <img src={webDevelopmentImg} alt="Web Development" className="w-8 h-8" />
+                                </div>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                                Cloud Automation & DevOps
+                            </h3>
+                            <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
+                                We provide managed services Driven by DevOps, continuous integration .                            </p>
+                            <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                                <Link to="/webdesign">Read More</Link>
+                            </button>
+                        </div>
+                        {/*  Data Engineering & Analytics */}
+                        <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
+                            <div className="flex justify-center mb-6">
+                                <div className="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-white">
+                                    <img src={webDevelopmentImg} alt="Web Development" className="w-8 h-8" />
+                                </div>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                                Data Engineering & Analytics
+
+                            </h3>
+                            <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
+                                We ensure your organization has the cutting-edge solutions powered by cloud.                            </p>
+                            <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                                <Link to="/webdesign">Read More</Link>
+                            </button>
+                        </div>
+                        {/* Mobile & Omni-Channel Development */}
+                        <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
+                            <div className="flex justify-center mb-6">
+                                <div className="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-white">
+                                    <img src={webDevelopmentImg} alt="Web Development" className="w-8 h-8" />
+                                </div>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                                Mobile & Omni-Channel Development
+                            </h3>
+                            <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
+                                We provide end-to-end product engineering services                            </p>
+                            <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                                <Link to="/webdesign">Read More</Link>
+                            </button>
+                        </div>
+                        {/*  Instructor Led Multi-Cloud trainings */}
+                        <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
+                            <div className="flex justify-center mb-6">
+                                <div className="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-white">
+                                    <img src={webDevelopmentImg} alt="Web Development" className="w-8 h-8" />
+                                </div>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                                Instructor Led Multi-Cloud trainings
+                            </h3>
+                            <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
+                                We provide Multi-Cloud trainings & Cloud managed services instructor led.                            </p>
+                            <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                                <Link to="/webdesign">Read More</Link>
+                            </button>
+                        </div>
+                        {/*     Application Platform Modernization */}
+                        <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
+                            <div className="flex justify-center mb-6">
+                                <div className="w-16 h-16 bg-slate-100 rounded-lg flex items-center justify-center group-hover:bg-white">
+                                    <img src={webDevelopmentImg} alt="Web Development" className="w-8 h-8" />
+                                </div>
+                            </div>
+                            <h3 className="text-xl font-bold text-slate-800 mb-4 group-hover:text-white">
+                                Application Platform Modernization
+                            </h3>
+                            <p className="text-gray-600 mb-6 leading-relaxed group-hover:text-white">
+                                We help modernizing your applications by leveraging the power of cloud.                            </p>
+                            <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition-colors">
+                                <Link to="/webdesign">Read More</Link>
+                            </button>
+                        </div>
                         {/* Mobile App Development */}
                         <div className="bg-white rounded-lg p-8 shadow-lg hover:shadow-xl transition-shadow group hover:bg-slate-700 hover:text-white">
                             <div className="flex justify-center mb-6">
@@ -129,7 +228,7 @@ const Services = () => {
                             {[{
                                 title: "Job Seekers",
                                 img: appDevelopmentImg,
-                                desc: "Meaningful career opportunities in top organizations.Looking to build your career with the right guidance, training, and opportunities? At Ardent & Vale Consultants Pvt. Ltd., we help freshers and experienced professionals connect with leading organizations and reputable roles that align with their skills and aspirations.",
+                                desc: "Meaningful career opportunities in top organizations.Looking to build your career with the right guidance, training, and opportunities? At Clix Consultants Pvt. Ltd., we help freshers and experienced professionals connect with leading organizations and reputable roles that align with their skills and aspirations.",
                                 link: "/mobile"
                             }, {
                                 title: "Employees",

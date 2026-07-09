@@ -62,7 +62,7 @@ const ContactUsPage = () => {
         <div className="container mx-auto px-4 max-w-5xl relative z-10 text-center">
           <h1 className="text-4xl font-bold text-white mb-4">Contact Us</h1>
           <p className="text-gray-200 max-w-2xl mx-auto">
-            Get in touch with Ardent & Vale Consultants Private Limited for business inquiries,
+            Get in touch with Clix Consultants Private Limited for business inquiries,
             corporate partnerships, advisory solutions, or support.
           </p>
         </div>
@@ -81,7 +81,7 @@ const ContactUsPage = () => {
               {
                 icon: <Mail className="w-8 h-8 text-slate-700" />,
                 title: "Email",
-                content: "contact@ardentvaleconsultants.com",
+                content: "hr@clix.org.in",
               },
               {
                 icon: <Clock className="w-8 h-8 text-slate-700" />,
@@ -115,9 +115,9 @@ const ContactUsPage = () => {
             <div className="flex items-center justify-center mb-4">
               <MapPin className="w-10 h-10 text-slate-700" />
             </div>
-            <p className="font-semibold">Level 2, Oval Building, Ilabs Centre, Plot No.18,</p>
-            <p>Shaikpet, Telangana, 500081, India</p>
-            <p className="mt-2">Registered under ROC Hyderabad</p>
+            <p className="font-semibold">123 Jenny Drive,</p>
+            <p>Bear, Delaware - 1901,</p>
+           
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ const ContactUsPage = () => {
       <div className="px-4 max-w-5xl mx-auto mb-16">
         <iframe
           title="Company Location"
-          src="https://www.google.com/maps?q=Level%202,%20Oval%20Building,%20Ilabs%20Centre,%20Plot%20No.18,%20Shaikpet,%20Telangana,%20500081,%20India&output=embed"
+          src="https://www.google.com/maps?q=Level%202,%2%20Building,%20Ilabs%20Centre,%20Plot%20No.18,%20Shaikpet,%20Telangana,%20500081,%20India&output=embed"
           className="w-full h-80 rounded-lg shadow-lg"
           allowFullScreen
           loading="lazy"

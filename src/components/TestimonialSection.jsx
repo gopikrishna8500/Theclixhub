@@ -7,17 +7,17 @@ const TestimonialSection = () => {
 
   const testimonials = [
     {
-      text: "Ardent & Vale Consultants Pvt. Ltd. provided highly skilled professionals who aligned perfectly with our project needs. Their dedication and responsiveness ensured our staffing requirements were consistently met. I strongly recommend Ardent & Vale Consultants Pvt. Ltd. to organizations looking for reliable and quality talent solutions.",
+      text: "Clix Consultants Pvt. Ltd. provided highly skilled professionals who aligned perfectly with our project needs. Their dedication and responsiveness ensured our staffing requirements were consistently met. I strongly recommend Clix Consultants Pvt. Ltd. to organizations looking for reliable and quality talent solutions.",
       author: "Chris A",
       image: image
     },
     {
-      text: "The team at Ardent & Vale Consultants Pvt. Ltd. took the time to understand my experience, skills, and long-term career goals. They guided me throughout the hiring process with clarity and professionalism. I confidently recommend them to anyone seeking meaningful career opportunities.",
+      text: "The team at Clix Consultants Pvt. Ltd. took the time to understand my experience, skills, and long-term career goals. They guided me throughout the hiring process with clarity and professionalism. I confidently recommend them to anyone seeking meaningful career opportunities.",
       author: "Robert R",
       image: image
     },
     {
-      text: "For our fast-paced and high-value project, Ardent & Vale Consultants Pvt. Ltd. played a crucial role in delivering capable talent on time. Their continued support has helped us maintain efficiency and exceed client expectations. We truly appreciate their partnership.",
+      text: "For our fast-paced and high-value project, Clix Consultants Pvt. Ltd. played a crucial role in delivering capable talent on time. Their continued support has helped us maintain efficiency and exceed client expectations. We truly appreciate their partnership.",
       author: "Matt D",
       image: image
     }

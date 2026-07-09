@@ -25,14 +25,14 @@ import kotlinLogo from "../assets/Techeminence/kotlin-logo.png";
 import javaLogo from "../assets/Techeminence/Java.png";
 const MobileAppDevelopmentPage = () => {
     const data = [
-        { id: 1, title: "Mobile Application Development", content: "Ardent and Vale Consultants Pvt Ltd is a leading software company with a decade of experience in mobile app development services.", icon: <span className="text-slate-900 text-4xl">📱</span> },
+        { id: 1, title: "Mobile Application Development", content: "ClixConsultants Pvt Ltd is a leading software company with a decade of experience in mobile app development services.", icon: <span className="text-slate-900 text-4xl">📱</span> },
         { id: 2, title: "MVP and Prototype Development", content: "Start your mobile app journey with a prototype and an MVP that can validate your idea and concept before you commit to a full-scale implementation.", icon: <span className="text-slate-900 text-4xl">🛠️</span> },
-        { id: 3, title: "Mobile Web Optimization", content: "Our team of mobile veterans optimize your web application to deliver an excellent experience across various mobile devices. At Ardent and Vale Consultants Pvt Ltd, one of our objectives is to ensure accessibility on the go with our mobile web development services.", icon: <span className="text-orange-500 text-4xl">🌐</span> },
-        { id: 4, title: "Cross-Platform Compatibility", content: "Our team of mobile professionals help your business reach a wider audience with cross-platform compatibility for your industry-specific application. We offer a hassle-free deployment across various operating systems and devices.", icon: <span className="text-orange-500 text-4xl">🔄</span> },
-        { id: 5, title: "UI/UX design", content: "Apart from being a leading mobile solutions enterprise, we are also a UI UX design company that supports businesses and gives startups a chance to differentiate and grab the attention of investors.", icon: <span className="text-orange-500 text-4xl">🎨</span> },
-        { id: 6, title: "Quality Assurance", content: "Starting with discussion and improvements of your idea, we aim to embody your exact vision. Our QA experts check for bugs, code integrity, and flaws to address your business goals.", icon: <span className="text-orange-500 text-4xl">✅</span> },
-        { id: 7, title: "Discovery phase", content: "Implement your business idea consulting our experts and you get the best solutions ever to satisfy your target users’ needs.", icon: <span className="text-orange-500 text-4xl">🔍</span> },
-        { id: 8, title: "IT System & Software Integration Services", content: "Ardent and Vale Consultants Pvt Ltd is a software integration company that can help you integrate enterprise applications, data, and processes in the most efficient way.", icon: <span className="text-orange-500 text-4xl">🔗</span> },
+        { id: 3, title: "Mobile Web Optimization", content: "Our team of mobile veterans optimize your web application to deliver an excellent experience across various mobile devices. At ClixConsultants Pvt Ltd, one of our objectives is to ensure accessibility on the go with our mobile web development services.", icon: <span className="text-slate-500 text-4xl">🌐</span> },
+        { id: 4, title: "Cross-Platform Compatibility", content: "Our team of mobile professionals help your business reach a wider audience with cross-platform compatibility for your industry-specific application. We offer a hassle-free deployment across various operating systems and devices.", icon: <span className="text-slate-500 text-4xl">🔄</span> },
+        { id: 5, title: "UI/UX design", content: "Apart from being a leading mobile solutions enterprise, we are also a UI UX design company that supports businesses and gives startups a chance to differentiate and grab the attention of investors.", icon: <span className="text-slate-500 text-4xl">🎨</span> },
+        { id: 6, title: "Quality Assurance", content: "Starting with discussion and improvements of your idea, we aim to embody your exact vision. Our QA experts check for bugs, code integrity, and flaws to address your business goals.", icon: <span className="text-slate-500 text-4xl">✅</span> },
+        { id: 7, title: "Discovery phase", content: "Implement your business idea consulting our experts and you get the best solutions ever to satisfy your target users’ needs.", icon: <span className="text-slate-500 text-4xl">🔍</span> },
+        { id: 8, title: "IT System & Software Integration Services", content: "ClixConsultants Pvt Ltd is a software integration company that can help you integrate enterprise applications, data, and processes in the most efficient way.", icon: <span className="text-slate-500 text-4xl">🔗</span> },
     ];
     const [selected, setSelected] = useState(data[0]);
     return (
@@ -153,7 +153,7 @@ const MobileAppDevelopmentPage = () => {
                                 title: "Native Apps",
                                 img: nativeApp,
                                 desc:
-                                    "Our mobile team at Ardent and Vale Consultants Pvt Ltd creates apps for a specific mobile operating system such as iOS or Android using the latest tools and languages."
+                                    "Our mobile team at ClixConsultants Pvt Ltd creates apps for a specific mobile operating system such as iOS or Android using the latest tools and languages."
                             },
                             {
                                 title: "Cross-Platform Apps",
@@ -227,12 +227,12 @@ const MobileAppDevelopmentPage = () => {
                         <div className="space-y-6">
                             <h3 className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 text-left md:text-left">Our Process</h3>
                             <div className="space-y-4 text-left text-gray-700">
-                                <p><span className="font-semibold text-orange-500">Discovery Phase</span> - We immerse in your business, identify challenges, explore opportunities, and set clear objectives.</p>
-                                <p><span className="font-semibold text-orange-500">Design Phase</span> - User-focused, intuitive designs from wireframes to prototypes, ensuring seamless user journeys.</p>
-                                <p><span className="font-semibold text-orange-500">Development Phase</span> - Robust, scalable apps built using cutting-edge technologies and agile collaboration.</p>
-                                <p><span className="font-semibold text-orange-500">Testing Phase</span> - Comprehensive QA for performance, security, and usability before release.</p>
-                                <p><span className="font-semibold text-orange-500">Deployment & Go-to-Market</span> - Store compliance, optimization, and smooth launch for maximum visibility.</p>
-                                <p><span className="font-semibold text-orange-500">Maintenance & Support</span> - Ongoing updates, enhancements, and 24/7 support to keep your app thriving.</p>
+                                <p><span className="font-semibold text-slate-500">Discovery Phase</span> - We immerse in your business, identify challenges, explore opportunities, and set clear objectives.</p>
+                                <p><span className="font-semibold text-slate-500">Design Phase</span> - User-focused, intuitive designs from wireframes to prototypes, ensuring seamless user journeys.</p>
+                                <p><span className="font-semibold text-slate-500">Development Phase</span> - Robust, scalable apps built using cutting-edge technologies and agile collaboration.</p>
+                                <p><span className="font-semibold text-slate-500">Testing Phase</span> - Comprehensive QA for performance, security, and usability before release.</p>
+                                <p><span className="font-semibold text-slate-500">Deployment & Go-to-Market</span> - Store compliance, optimization, and smooth launch for maximum visibility.</p>
+                                <p><span className="font-semibold text-slate-500">Maintenance & Support</span> - Ongoing updates, enhancements, and 24/7 support to keep your app thriving.</p>
                             </div>
                         </div>
                         {/* Center Column - iPhone Image */}
@@ -243,12 +243,12 @@ const MobileAppDevelopmentPage = () => {
                         <div className="space-y-6">
                             <h3 className="text-2xl font-bold mb-4 text-left">Integrations We Offer</h3>
                             <div className="space-y-4 text-left text-gray-700">
-                                <p><span className="font-semibold text-orange-500">API Integration</span> - Enable your app to connect with platforms via RESTful or GraphQL APIs—unlocking payment gateways, social logins, and SaaS features.</p>
-                                <p><span className="font-semibold text-orange-500">Database Integration</span> - Secure, real-time connections with MySQL, PostgreSQL, MongoDB, and Firebase for structured and unstructured data.</p>
-                                <p><span className="font-semibold text-orange-500">Authentication & Authorization</span> - Industry-standard protocols (OAuth 2.0, OpenID, JWT, SSO) for secure and controlled access.</p>
-                                <p><span className="font-semibold text-orange-500">Enterprise System Integration</span> - Seamless sync with CRM, ERP, HRMS, and legacy systems for unified workflows and visibility.</p>
-                                <p><span className="font-semibold text-orange-500">Push Notification Integration</span> - Personalized, geo-targeted alerts using FCM, OneSignal, and APNs to boost engagement.</p>
-                                <p><span className="font-semibold text-orange-500">Messaging & Communication</span> - In-app chat, VoIP, and video conferencing with Twilio, Sendbird, Agora, and WebRTC.</p>
+                                <p><span className="font-semibold text-slate-500">API Integration</span> - Enable your app to connect with platforms via RESTful or GraphQL APIs—unlocking payment gateways, social logins, and SaaS features.</p>
+                                <p><span className="font-semibold text-slate-500">Database Integration</span> - Secure, real-time connections with MySQL, PostgreSQL, MongoDB, and Firebase for structured and unstructured data.</p>
+                                <p><span className="font-semibold text-slate-500">Authentication & Authorization</span> - Industry-standard protocols (OAuth 2.0, OpenID, JWT, SSO) for secure and controlled access.</p>
+                                <p><span className="font-semibold text-slate-500">Enterprise System Integration</span> - Seamless sync with CRM, ERP, HRMS, and legacy systems for unified workflows and visibility.</p>
+                                <p><span className="font-semibold text-slate-500">Push Notification Integration</span> - Personalized, geo-targeted alerts using FCM, OneSignal, and APNs to boost engagement.</p>
+                                <p><span className="font-semibold text-slate-500">Messaging & Communication</span> - In-app chat, VoIP, and video conferencing with Twilio, Sendbird, Agora, and WebRTC.</p>
                             </div>
                         </div>
                     </div>
@@ -258,7 +258,7 @@ const MobileAppDevelopmentPage = () => {
             <section className="py-12 bg-white">
                 <div className="max-w-7xl mx-auto px-4 lg:max-w-[80%]">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12 sm:mb-16">
-                        Why Choose Ardent and Vale Consultants Pvt Ltd?
+                        Why Choose ClixConsultants Pvt Ltd?
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-12 items-start">
                         {/* Left Column */}
@@ -304,7 +304,7 @@ const MobileAppDevelopmentPage = () => {
                                     <div className="w-48 h-48 mx-auto mb-4 flex items-center justify-center">
                                         <img
                                             src={avcpllogo2}
-                                            alt="Ardent and Vale Consultants Pvt Ltd"
+                                            alt="ClixConsultants Pvt Ltd"
                                             className="w-full h-full object-contain"
                                         />
                                     </div>

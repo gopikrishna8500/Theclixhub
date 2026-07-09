@@ -33,7 +33,7 @@ const ServicesSection = () => {
     },
     {
       title: "Job Seeker",
-      description: "Looking to build your career with the right guidance, training, and opportunities? At Ardent & Vale Consultants Pvt. Ltd., we help freshers and experienced professionals connect with leading organizations and reputable roles that align with their skills and aspirations.",
+      description: "Looking to build your career with the right guidance, training, and opportunities? At Clix Consultants Pvt. Ltd., we help freshers and experienced professionals connect with leading organizations and reputable roles that align with their skills and aspirations.",
       image: mobileAppImg,
       alt: "Job Seeker",
       link: "/mobile",

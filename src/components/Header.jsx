@@ -18,15 +18,15 @@ const Header = () => {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <div className="flex items-center space-x-0.5">
-            
-            <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <img
-                src={avcplLogo}
-                alt="AVCPL Logo"
-                className="h-12 w-auto object-contain"
-                style={{ maxWidth: "160px" }}
-              />
-              </Link>  
+
+              <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                <img
+                  src={avcplLogo}
+                  alt="AVCPL Logo"
+                  className="h-12 w-auto object-contain"
+                  style={{ maxWidth: "160px" }}
+                />
+              </Link>
             </div>
 
             {/* Desktop Navigation */}
@@ -71,6 +71,48 @@ const Header = () => {
                       transition={{ duration: 0.2 }}
                       className="absolute top-full left-0 mt-2 w-64 bg-white text-black rounded-md shadow-lg py-2 z-50"
                     >
+                        <Link
+                        to="/Migrationpage"
+                        className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
+                        onClick={() => setIsServicesOpen(false)}
+                      >
+                         Cloud Strategy & Migration
+                      </Link>
+                        <Link
+                        to="/AutomationDevOps"
+                        className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
+                        onClick={() => setIsServicesOpen(false)}
+                      >
+                        Cloud Automation & DevOps
+                      </Link>
+                        <Link
+                        to="/DataEngineering"
+                        className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
+                        onClick={() => setIsServicesOpen(false)}
+                      >
+                        Data Engineering & Analytics
+                      </Link>
+                        <Link
+                        to="/Mobiledevelopment"
+                        className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
+                        onClick={() => setIsServicesOpen(false)}
+                      >
+                       Mobile & Omni-Channel Development
+                      </Link>
+                        <Link
+                        to="/MultiCloudtrainings"
+                        className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
+                        onClick={() => setIsServicesOpen(false)}
+                      >
+                        Instructor Led Multi-Cloud trainings
+                      </Link>
+                        <Link
+                        to="/Application"
+                        className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
+                        onClick={() => setIsServicesOpen(false)}
+                      >
+                          Application Platform Modernization
+                      </Link>
                       <Link
                         to="/mobile"
                         className="block px-4 py-2 font-bold text-slate-900 hover:bg-gray-100 hover:text-blue-800 transition-colors"
@@ -124,13 +166,13 @@ const Header = () => {
               <div className="flex items-center space-x-2 text-slate-900">
                 <Phone className="w-4 h-4 " />
                 <a href="tel:+17183604995" className="hover:text-blue-800 transition-colors">
-                   <span className="text-sm font-bold">+1 (718) 360-4995</span>
-                  </a>
+                  <span className="text-sm font-bold">+1 (718) 360-4995</span>
+                </a>
               </div>
               <button className="ml-6 bg-slate-900 hover:bg-slate-700 px-4 py-2 rounded-md text-sm flex items-center space-x-2 transition-colors font-bold text-white">
                 <Mail className="w-4 h-4" />
                 <span>
-                  <a href="mailto:contact@ardentvaleconsultants.com">Mail Us</a>
+                  <a href="mailto:hr@clix.org.in">Mail Us</a>
                 </span>
               </button>
             </div>
@@ -185,6 +227,55 @@ const Header = () => {
 
                   <div className="pl-4 flex flex-col space-y-1">
                     <Link
+                      to="/Migrationpage"
+                      className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      Cloud Strategy & Migration
+                    </Link>
+                    <Link
+                      to="/AutomationDevOps"
+                      className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      Cloud Automation & DevOps
+                    </Link>
+                    <Link
+                      to="/DataEngineering"
+                      className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+
+                      Data Engineering & Analytics
+                    </Link>
+                    <Link
+                      to="/Mobiledevelopment"
+                      className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+
+                      Mobile & Omni-Channel Development
+                    </Link>
+                    <Link
+                      to="/MultiCloudtrainings"
+                      className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+
+                      Instructor Led Multi-Cloud trainings
+                    </Link>
+                    <Link
+                      to="/Application"
+                      className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+
+                      Application Platform Modernization
+                    </Link>
+
+
+
+                    <Link
                       to="/mobile"
                       className="font-bold text-slate-900 text-lg hover:text-blue-800 transition-colors"
                       onClick={() => setIsMobileMenuOpen(false)}
@@ -233,13 +324,13 @@ const Header = () => {
 
                   <div className="flex items-center space-x-2 text-slate-900 pt-2">
                     <Phone className="w-4 h-4" />
-                   <a href="tel:+17183604995" className="hover:text-blue-800 transition-colors">
-                   <span className="text-sm font-bold">+1 (718) 360-4995</span>
-                  </a>
+                    <a href="tel:+17183604995" className="hover:text-blue-800 transition-colors">
+                      <span className="text-sm font-bold">+1 (718) 360-4995</span>
+                    </a>
                     <button className="ml-6 bg-slate-900 hover:bg-slate-700 px-4 py-2 rounded-md text-sm flex items-center space-x-2 transition-colors font-bold text-white">
                       <Mail className="w-4 h-4" />
                       <span>
-                        <a href="mailto:contact@ardentvaleconsultants.com">Mail Us</a>
+                        <a href="mailto:hr@clix.org.in">Mail Us</a>
                       </span>
                     </button>
                   </div>

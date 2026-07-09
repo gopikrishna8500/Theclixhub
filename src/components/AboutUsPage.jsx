@@ -45,7 +45,7 @@ const AboutUsPage = () => {
                     IT Consulting • Staffing Solutions • Business Services
                 </p>
                 <p className="text-gray-600 mt-4 max-w-3xl mx-auto text-center leading-relaxed">
-                    Ardent & Vale Consultants Pvt Ltd (CIN: U78100TS2025PTC200214) delivers strategic
+                    Clix Consultants Pvt Ltd (CIN: U78100TS2025PTC200214) delivers strategic
                     consulting, staffing, and professional solutions for global organizations.
                 </p>
 
@@ -65,7 +65,7 @@ const AboutUsPage = () => {
                             <h3 className="text-2xl font-semibold text-slate-900 mb-4">Key Company Details</h3>
                             <p className="text-gray-700 leading-relaxed">
                                 We are a consulting and workforce solutions company connecting skilled talent with businesses worldwide.
-                                Ardent & Vale Consultants Pvt Ltd is a professional consulting and
+                                Clix Consultants Pvt Ltd is a professional consulting and
                                 workforce solutions company dedicated to connecting businesses with
                                 skilled talent while enabling sustainable organizational growth. We
                                 work across multiple industries helping organizations build strong,
@@ -128,7 +128,7 @@ const AboutUsPage = () => {
                     </div>
                     <h3 className="text-xl font-bold mb-4">Staff Augmentation</h3>
                     <p className="text-gray-600 group-hover:text-white leading-relaxed mb-6">
-                        Our recruitment arm keeps evolving. At Ardent and Vale Consultants Pvt Ltd, we don't just fill roles. We align with your vision of business transformation.                    </p>
+                        Our recruitment arm keeps evolving. At ClixConsultants Pvt Ltd, we don't just fill roles. We align with your vision of business transformation.                    </p>
                     <Link to="/staff-augmentation">
                         <button className="bg-slate-900 hover:bg-slate-600 text-white px-6 py-2 rounded-lg transition">
                             Read More
@@ -181,7 +181,7 @@ const AboutUsPage = () => {
 
                     <div className="space-y-8 text-gray-600 leading-relaxed">
                         <p>
-                            At Ardent and Vale Consultants Pvt Ltd, we are committed to building the best IT careers possible by creating the perfect match between a job seeker’s expertise and client requirements, guaranteeing a long and fruitful association for all.
+                            At ClixConsultants Pvt Ltd, we are committed to building the best IT careers possible by creating the perfect match between a job seeker’s expertise and client requirements, guaranteeing a long and fruitful association for all.
                             We are committed to building strong IT careers by creating perfect talent-role matches.
                         </p>
                         <p>
@@ -208,11 +208,11 @@ const AboutUsPage = () => {
                         }, {
                             icon: <Mail className="text-slate-700" />,
                             label: "Email",
-                            value: "contact@ardentvaleconsultants.com"
+                            value: "hr@clix.org.in"
                         }, {
                             icon: <MapPin className="text-slate-700" />,
                             label: "Headquarters",
-                            value: "Shaikpet, Telangana, 500081"
+                            value: "123 Jenny Drive,Bear, Delaware  1901"
                         }].map((item, i) => (
                             <div key={i} className="flex gap-4 items-start bg-white border rounded-lg p-6 shadow-sm hover:shadow-md transition">
                                 <div className="p-3 bg-gray-100 rounded-md">{item.icon}</div>

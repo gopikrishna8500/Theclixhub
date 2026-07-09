@@ -8,7 +8,7 @@ const HeroSection = () => {
   const slides = [
     {
       image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      title: "Welcome to Ardent & Vale Consultants Pvt Ltd",
+      title: "Welcome to Clix Consultants Pvt Ltd",
       subtitle: "Your Trusted IT Staffing & Consulting Partner",
       description: "We enable organizations to scale efficiently by connecting top-tier talent with high-impact roles.",
       button: "READ MORE",

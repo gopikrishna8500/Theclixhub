@@ -20,11 +20,11 @@ const Footer = () => {
                             Popular Links
                         </h3>
                         <ul className="space-y-3 text-sm">
-                            <li><Link to="/mobile" className="hover:text-orange-400 transition-colors">→ Mobile App Development</Link></li>
-                            <li><Link to="/webdesign" className="hover:text-orange-400 transition-colors">→ Web Design and Development</Link></li>
-                            <li><Link to="/staff-augmentation" className="hover:text-orange-400 transition-colors">→ Staff Augmentation</Link></li>
-                            <li><Link to="/about" className="hover:text-orange-400 transition-colors">→ About Us</Link></li>
-                            <li><Link to="/contact-us" className="hover:text-orange-400 transition-colors">→ Contact Us</Link></li>
+                            <li><Link to="/mobile" className="hover:text-slate-400 transition-colors">→ Mobile App Development</Link></li>
+                            <li><Link to="/webdesign" className="hover:text-slate-400 transition-colors">→ Web Design and Development</Link></li>
+                            <li><Link to="/staff-augmentation" className="hover:text-slate-400 transition-colors">→ Staff Augmentation</Link></li>
+                            <li><Link to="/about" className="hover:text-slate-400 transition-colors">→ About Us</Link></li>
+                            <li><Link to="/contact-us" className="hover:text-slate-400 transition-colors">→ Contact Us</Link></li>
                         </ul>
                     </div>
                     <div>
@@ -32,19 +32,21 @@ const Footer = () => {
                             Get in Touch
                         </h3>
                         <p className="text-sm leading-relaxed">
-                            <span className="font-medium text-2xl">Ardent and Vale Consultants Pvt Ltd</span>
+                            <span className="font-medium text-2xl">Clix Consultants Pvt Ltd</span>
                             <br />
-                            Level 2, Oval Building, Ilabs Centre, Plot No.18,
 
-                            Shaikpet, <br />
-                            Telangana, 500081, India
+                            123 Jenny Drive,
+
+
+                            <br />
+                            Bear, Delaware - 1901,
                         </p>
                         <div className="mt-4 space-y-2 text-sm">
                             <p className="flex items-center">
                                 <Phone className="w-4 h-4 mr-2" /> +91XXXXXXXXXX
                             </p>
                             <p className="flex items-center">
-                                <Mail className="w-4 h-4 mr-2" /> contact@ardentvaleconsultants.com
+                                <Mail className="w-4 h-4 mr-2" /> hr@clix.org.in
                             </p>
                         </div>
                     </div>
@@ -52,7 +54,14 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold text-white mb-6 border-b border-gray-600 pb-2">
                             Find Us and Say HAI
+
                         </h3>
+                        <h2>
+                            Clix, is an IT Resource Management and Consultancy firm that offers value IT offerings to the companies with Integrity and manipulate the know-how sources with excellence to make successful clients and happy employees.
+
+                        </h2>
+                        
+                        
                         <div className="flex space-x-4 mt-2">
                             <a href="https://www.facebook.com/people/APTIT-Professional-Service/100066877321032/#" className="hover:text-blue-500"><Facebook className="w-6 h-6" /></a>
                             <a href="https://x.com/APTITServices" className="hover:text-blue-400"><Twitter className="w-6 h-6" /></a>
@@ -101,13 +110,13 @@ const Footer = () => {
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
 
                         <div className="flex space-x-6 text-sm">
-                            <Link to="/privacy-policy" className="hover:text-orange-400 transition-colors">Privacy Policy</Link>
-                            <Link to="/about" className="hover:text-orange-400 transition-colors">About Us</Link>
-                            <Link to="/contact-us" className="hover:text-orange-400 transition-colors">Contact Us</Link>
+                            <Link to="/privacy-policy" className="hover:text-slate-400 transition-colors">Privacy Policy</Link>
+                            <Link to="/about" className="hover:text-slate-400 transition-colors">About Us</Link>
+                            <Link to="/contact-us" className="hover:text-slate-400 transition-colors">Contact Us</Link>
                         </div>
 
                         <div className="text-sm">
-                            © 2025 <span className="text-orange-400">Ardent and Vale Consultant pvt ltd</span> All Rights Reserved
+                            © 2026 <span className="text-slate-400">Ideal Path Software Solutions</span> All Rights Reserved
                         </div>
 
                     </div>

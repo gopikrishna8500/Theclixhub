@@ -61,7 +61,7 @@ const CareersPage = () => {
                 <div className="container mx-auto px-4 relative z-10">
                     <div className="max-w-3xl mx-auto text-center mb-12">
                         <h1 className="text-4xl font-bold mb-4">Find Your Dream Job</h1>
-                        <p className="text-gray-300">Explore exciting career opportunities at Ardent and Vale Consultants pvt ltd</p>
+                        <p className="text-gray-300">Explore exciting career opportunities at ClixConsultants pvt ltd</p>
                     </div>
 
                     <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-4">

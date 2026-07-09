@@ -56,7 +56,7 @@ const StaffAugmentationPage = () => {
                                     Staff Augmentation
                                 </h2>
                                 <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed mb-4">
-                                    Our recruitment arm keeps evolving. At Ardent and Vale Consultants Pvt Ltd, we don't just fill roles. We align with your vision of
+                                    Our recruitment arm keeps evolving. At ClixConsultants Pvt Ltd, we don't just fill roles. We align with your vision of
                                     business transformation.
                                 </p>
                                 <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-relaxed">
@@ -260,7 +260,7 @@ const StaffAugmentationPage = () => {
                                         <li>Retaining total control as you manage the project while we manage the talent pool</li>
                                     </ul>
                                     <p className="text-gray-600">
-                                        At Ardent and Vale Consultants Pvt Ltd, contract staffing is not just a quick fix; it is a strategic answer to your call that streamlines those tightest timeframes, keeps the project on time, meets your budget, and keeps you ahead in this ever changing-market.
+                                        At ClixConsultants Pvt Ltd, contract staffing is not just a quick fix; it is a strategic answer to your call that streamlines those tightest timeframes, keeps the project on time, meets your budget, and keeps you ahead in this ever changing-market.
                                     </p>
                                     <p className="text-gray-600 font-semibold">What you can expect</p>
                                     <ul className="list-disc list-inside text-gray-600 pl-4">
@@ -309,7 +309,7 @@ const StaffAugmentationPage = () => {
                                     </ul>
                                     <p className="text-gray-600">
                                         Need some assistance in selecting what works best for you?<br />
-                                        At Ardent and Vale Consultants Pvt Ltd , we know the importance of customization. Our tech team of managers and strategists are here to help you with a concrete roadmap and help you <b><i>Build Your Own Team</i></b>. Talk to functional consultants and we will guide you to the smartest fit!
+                                        At ClixConsultants Pvt Ltd , we know the importance of customization. Our tech team of managers and strategists are here to help you with a concrete roadmap and help you <b><i>Build Your Own Team</i></b>. Talk to functional consultants and we will guide you to the smartest fit!
                                     </p>
                                 </div>
                             )}
@@ -322,7 +322,7 @@ const StaffAugmentationPage = () => {
                         Need some assistance in selecting what works best for you?
                     </h2>
                     <p className="text-gray-500 text-sm sm:text-base md:text-lg mb-4 max-w-3xl mx-auto">
-                        At Ardent and Vale Consultants Pvt Ltd , we know the importance of customization. Our tech team of managers and strategists are here to help you with a concrete roadmap and help you <span className="font-bold italic text-gray-600">Build Your Own Team</span>.
+                        At ClixConsultants Pvt Ltd , we know the importance of customization. Our tech team of managers and strategists are here to help you with a concrete roadmap and help you <span className="font-bold italic text-gray-600">Build Your Own Team</span>.
                     </p>
                     <p className="text-gray-500 text-sm sm:text-base md:text-lg mb-8">
                         Talk to functional consultants and we will guide you to the smartest fit!

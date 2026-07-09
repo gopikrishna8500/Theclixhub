@@ -12,7 +12,7 @@ const AboutSection = () => {
                     <div>
                         <h2 className="text-4xl font-bold text-slate-900 mb-6">About Us</h2>
                         <p className="text-gray-600 leading-relaxed mb-8">
-                            Ardent & Vale Consultants Pvt Ltd is a professional consulting and
+                            Clix Consultants Pvt Ltd is a professional consulting and
                             workforce solutions company dedicated to connecting businesses with
                             skilled talent while enabling sustainable organizational growth. We
                             work across multiple industries helping organizations build strong,
@@ -51,9 +51,10 @@ const AboutSection = () => {
                     <div>
                         <h2 className="text-4xl font-bold text-slate-900 mb-6">Company Overview</h2>
                         <p className="text-gray-600 leading-relaxed mb-8">
-                            Ardent & Vale Consultants Pvt Ltd (CIN: U78100TS2025PTC200214) delivers strategic
+                            Clix Consultants Pvt Ltd (CIN: U78100TS2025PTC200214) delivers strategic
                             consulting, IT staffing, and professional solutions for global organizations.
-                            Headquartered in Shaikpet, Telangana — we enable business scalability and talent growth.
+                            Headquartered in 123 Jenny Drive,
+Bear, Delaware - 1901— we enable business scalability and talent growth.
                         </p>
 
                         <Link to="/about">
