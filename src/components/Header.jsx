@@ -23,8 +23,8 @@ const Header = () => {
                 <img
                   src={avcplLogo}
                   alt="AVCPL Logo"
-                  className="h-12 w-auto object-contain"
-                  style={{ maxWidth: "160px" }}
+                  className="h-40 w-auto object-contain"
+                  style={{ maxWidth: "620px" }}
                 />
               </Link>
             </div>
